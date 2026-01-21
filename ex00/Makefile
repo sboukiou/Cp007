@@ -1,5 +1,5 @@
 CXX=c++
-CPPFLAGS=-Wall -Werror -Wextra -Wshadow-all
+CPPFLAGS=-Wall -Werror -Wextra -Wshadow
 RM=rm -f
 
 SRC=main.cpp
