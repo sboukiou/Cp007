@@ -24,7 +24,7 @@ T	max(T &A, T &B) {
 	if (A > B)
 		return (A);
 	if (B > A)
-		return (A);
+		return (B);
 	return (B);
 }
 #endif /* WHATEVER_HPP */
