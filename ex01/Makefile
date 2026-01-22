@@ -4,7 +4,7 @@ RM=rm -f
 
 SRC=main.cpp
 OBJ=$(SRC:%.cpp=%.o)
-NAME=Whatever
+NAME=Iter
 
 all:$(NAME)
 
