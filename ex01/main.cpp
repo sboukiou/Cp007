@@ -8,11 +8,11 @@ void	printParam(T param) {
 
 
 int main(void) {
-	int numbers[3] = {1, 8, 10};
-	std::string names[3] = {"Sabakyou", "Liams", "Frued"};
+	int numbers[4] = {1, 8, 10, 99};
+	std::string names[4] = {"Fire", "Water", "Air", "Earth"};
 
-	iter(numbers, 3, printParam);
-	iter(names, 3, printParam);
+	iter(numbers, 4, printParam);
+	iter(names, 4, printParam);
 
 	return (0);
 }
