@@ -33,11 +33,11 @@ void	testMin(param A, param B) {
 }
 
 int main( void ) {
-	int numA = 12;
-	int numB = 44;
+	int const numA = 12;
+	int const numB = 44;
 
-	std::string strA = "The world";
-	std::string strB = "Ze world";
+	std::string const strA = "The world";
+	std::string const strB = "Ze world";
 
 	testSwap(numA, numB);
 	std::cout << "-----------\n\n";

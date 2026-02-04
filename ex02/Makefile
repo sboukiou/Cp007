@@ -2,7 +2,7 @@ CXX=c++
 CPPFLAGS=-Wall -Werror -Wextra -Wshadow
 RM=rm -f
 
-SRC=main.cpp
+SRC=main-test.cpp
 OBJ=$(SRC:%.cpp=%.o)
 NAME=Array
 
